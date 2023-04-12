@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<Script>
+ // Get the user input
+let num1 = parseFloat(prompt("Enter the first number:"));
+let num2 = parseFloat(prompt("Enter the second number:"));
+
+// Divide the two numbers
+let result = num1 / num2;
+
+// Check if the result is finite or infinite
+if (isFinite(result)) {
+  document.write("The result is finite.");
+} else {
+  document.write("The result is infinite.");
+}
+
+</Script>
+</html>
